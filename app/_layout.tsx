@@ -1,4 +1,4 @@
-import { Stack } from 'expo-router'
+import { Stack ,Redirect} from 'expo-router'
 import * as SplashScreen from "expo-splash-screen"
 import { useFonts } from 'expo-font'
 import { useCallback } from 'react';
@@ -26,6 +26,19 @@ export default function _layout() {
   }
 
   return (
-    <Stack />
+    <Stack>
+      <Stack.Screen name='index' options={{
+        headerShown : false
+      }} />
+
+      <Stack.Screen name='screens/home' options={{
+        headerShown : false 
+      }}/>
+
+      <Stack.Screen name='screens/add_city' options={{
+        headerShown : false 
+      }}/>
+    
+    </Stack>
   )
 }

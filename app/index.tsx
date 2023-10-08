@@ -1,8 +1,7 @@
-import { View, Text } from 'react-native'
+
+import { Redirect } from 'expo-router';
 export default function app() {
   return (
-    <View>
-      <Text style={{fontFamily:"OS_LIGHT",fontSize:40}}>app</Text>
-    </View>
+    <Redirect href="/screens/home/home" />
   )
 }
