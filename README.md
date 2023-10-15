@@ -2,7 +2,6 @@
 A simple weather app built with React Native and Expo, powered by the OpenWeatherMap API, allowing users to check weather information for their current city and add new cities to track.
 <img src="/preview/home_day.png" alt="home day" width="200">
 
-
 ## Features
 
 - View weather information for the current city on the home screen.
