@@ -1,5 +1,8 @@
 # weather-app
 A simple weather app built with React Native and Expo, powered by the OpenWeatherMap API, allowing users to check weather information for their current city and add new cities to track.
+<img src="/preview/home_day.png" alt="home day" width="200">
+
+
 ## Features
 
 - View weather information for the current city on the home screen.
@@ -24,19 +27,19 @@ Before running the app, make sure you have set up the necessary environment vari
    npm install
    npm start
    ```
-##Usage
+## Usage
 - On the home screen, view weather information for the current city.
 - To change the city, navigate to the "Add City" screen and enter the city name.
 - The app will automatically detect the time of day in the current city and change the background image accordingly.
-##Database
+## Database
 - City names are stored using SQLite. The database is automatically created when you add a new city.
 
-##Built With
+## Built With
 - React Native
 - Expo
 - SQLite for database storage
 - OpenWeatherMap API for weather data
-##Screenshots
+## Screenshots
 
 ### Home (day)
 <img src="/preview/home_day.png" alt="home day" width="200">
